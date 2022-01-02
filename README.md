@@ -47,8 +47,9 @@ sh ubun.sh
 cd
 ```
 # AUTO RUN CCMINER IN TERMUX
-
-Setting Step
+```
+os-installer
+```
 ```
 apt-get update
 ```
