@@ -66,7 +66,9 @@ cd auto-run-ccminer
 sh setup.sh
 ```
 * หลังจากเปิดไฟล์ bash.bashrc เพิ่มบรรทัดแรกเป็น
-- ```run-miner```
+```
+run-miner
+```
 * แล้ว save
 
 ## เพิ่มเติมการใช้โปรแกรม
