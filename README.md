@@ -27,6 +27,8 @@ pkg install proot-distro
 proot-distro install ubuntu
 ```
 ############################
+--> Exit-->0-->cd-->
+
 ```
 pkg install nano
 ```
