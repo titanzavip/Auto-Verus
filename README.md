@@ -1,3 +1,10 @@
+# Download
+* [ Download Hibernator ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/Hibernator%20v2.22.3%20%5BPremium%5D-M.apk)
+<br> *
+ * [ Download No Screen Off ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/No%20Screen%20Off_v1.16_apkpure.com.apk)
+<br>
+ * [ Download No Screen Off ](https://github.com/titanzavip/Verus-coin-miner/blob/main/Vysor%20Android.apk)
+<br>
 # OS-INSTALLER
 ```
 termux-setup-storage
