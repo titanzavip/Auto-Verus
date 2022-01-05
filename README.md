@@ -82,6 +82,9 @@ run-miner
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
 # SETUP
+```
+edit-miner
+```
 * Pool
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
@@ -94,4 +97,6 @@ DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 ```
 c=DOGE,mc=VRSC,ID=Miner-001
 ```
-
+```
+run-miner
+```
