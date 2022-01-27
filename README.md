@@ -25,7 +25,10 @@ cd os-installer
 ```
 sh build.sh
 ```
-
+Open Os
+```
+os-installer
+```
 # Termux Start & Run Linux
 * No Use os-installer
 ```
