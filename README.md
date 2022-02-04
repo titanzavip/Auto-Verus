@@ -102,10 +102,9 @@ c=DOGE,mc=VRSC,ID=Miner-
 ```
 # Zpool
 ```
-stratum+tcp://verushash.sea.mine.zpool.ca:6143
+stratum+tcp://verus.wattpool.net:1232
 ```
-```
-DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
+DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9.Realme-1
 ```
 ```
 c=DOGE
