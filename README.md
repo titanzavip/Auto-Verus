@@ -105,10 +105,10 @@ c=DOGE,mc=VRSC,ID=Miner-
 stratum+tcp://verus.wattpool.net:1232
 ```
 ```
-DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9.Realme-1
+RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-1
 ```
 ```
-c=DOGE
+x
 ```
 ```
 edit-miner
