@@ -104,7 +104,7 @@ c=DOGE,mc=VRSC,ID=Miner-
 stratum+tcp://ap.luckpool.net:3956 
 ```
 ```
-RQAfPvMpdiwNsiRXfMk5N2PBJ9aXaZQArv.Realme-1
+RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-1
 ```
 ```
 x
