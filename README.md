@@ -87,8 +87,7 @@ run-miner
 * หากต้องการเปลี่ยน pool or wallet ใช้คำสั่ง ```edit-miner```
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
-# SETUP
-* ZergPool
+# ZergPool
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
@@ -100,12 +99,12 @@ DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 ```
 c=DOGE,mc=VRSC,ID=Miner-
 ```
-# Zpool
+# Luckypool
 ```
 stratum+tcp://ap.luckpool.net:3956 
 ```
 ```
-RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-1
+RQAfPvMpdiwNsiRXfMk5N2PBJ9aXaZQArv.Realme-1
 ```
 ```
 x
