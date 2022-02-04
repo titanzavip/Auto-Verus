@@ -102,7 +102,7 @@ c=DOGE,mc=VRSC,ID=Miner-
 ```
 # Zpool
 ```
-stratum+tcp://verus.wattpool.net:1232
+stratum+tcp://vrsc.ciscotech.dk:9999
 ```
 ```
 RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-1
