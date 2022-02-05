@@ -51,7 +51,10 @@ os-installer
 os-installer
 ```
 ```
-apt-get update
+apt update -y
+```
+```
+apt upgrade -y
 ```
 ```
 apt-get install git -y
