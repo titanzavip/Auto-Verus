@@ -17,30 +17,6 @@ apt upgrade -y
 apt install git -y
 ```
 ```
-git clone https://github.com/mantvmass/os-installer
-```
-```
-cd os-installer
-```
-```
-sh build.sh
-```
-Open Os
-```
-os-installer
-```
-# Termux Start & Run Linux
-* No Use os-installer
-```
-pkg install proot-distro
-```
-```
-proot-distro install ubuntu
-```
-############################
---> Exit-->0-->cd-->
-
-```
 pkg install nano
 ```
 ```
@@ -56,6 +32,19 @@ sh ubun.sh
 ```
 ```
 cd
+```
+```
+git clone https://github.com/mantvmass/os-installer
+```
+```
+cd os-installer
+```
+```
+sh build.sh
+```
+Open Os
+```
+os-installer
 ```
 # AUTO RUN CCMINER IN TERMUX
 ```
