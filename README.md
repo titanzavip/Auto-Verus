@@ -109,7 +109,7 @@ c=BCH,mc=VRSC,ID=Realme-
 stratum+tcp://ap.luckpool.net:3956 
 ```
 ```
-RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-1
+RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-
 ```
 ```
 x
