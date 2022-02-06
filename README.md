@@ -80,6 +80,7 @@ run-miner
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
 # ZergPool
+ * Doge
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
@@ -90,6 +91,18 @@ DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 * -p 
 ```
 c=DOGE,mc=VRSC,ID=Miner-
+```
+ * BCH
+```
+stratum+tcp://verushash.asia.mine.zergpool.com:3300
+```
+* Wallet
+```
+0x7066099a5da8f1019824634e7f5c59d050de0f99
+```
+* -p 
+```
+c=BCH,mc=VRSC,ID=Realme-
 ```
 # Luckypool
 ```
