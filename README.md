@@ -60,10 +60,10 @@ apt upgrade -y
 apt-get install git -y
 ```
 ```
-git clone https://github.com/titanzavip/Auto-Verus.git
+git clone https://github.com/titanzavip/Auto-Verus
 ```
 ```
-cd auto-run-ccminer
+cd Auto-Verus
 ```
 ```
 sh setup.sh
