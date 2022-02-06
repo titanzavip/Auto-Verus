@@ -60,7 +60,7 @@ apt upgrade -y
 apt-get install git -y
 ```
 ```
-git clone https://github.com/mantvmass/auto-run-ccminer
+git clone https://github.com/titanzavip/Auto-Verus.git
 ```
 ```
 cd auto-run-ccminer
