@@ -80,6 +80,18 @@ run-miner
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
 # ZergPool
+* Verus Coin
+```
+stratum+tcp://verushash.asia.mine.zergpool.com:3300
+```
+* Wallet
+```
+RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-
+```
+* -p 
+```
+c=VRSC,mc=VRSC
+```
  * Doge
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
