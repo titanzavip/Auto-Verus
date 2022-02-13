@@ -24,7 +24,7 @@ mv run-miner ../../bin
 run-miner
 
 
-cd && cd ../etc/src_run_ccminer/ccminer-curve
+cd && cd ../etc/src_run_ccminer/ccminer
 chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
