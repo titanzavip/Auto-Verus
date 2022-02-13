@@ -32,7 +32,8 @@ def banner(logo):
 
 # install miner function 
 def install():
-    os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
+    # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
+    os.system("git clone https://github.com/mantvmass/ccminer_mmv")
 
 # run miner function
 def run():
@@ -64,7 +65,7 @@ def set_miner():
         print("ตัวอย่าง: \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
         pool = input("Pool[-o]: ")
 
-        print("ตัวอย่าง: \033[93mRJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-\033[00m")
+        print("ตัวอย่าง: \033[93mRQpWNdNZ4LQ5yHUM3VAVuhUmMMiMuGLUhT.OMG-MINER\033[00m")
         wallet = input("Wallet[-u]: ")
 
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
