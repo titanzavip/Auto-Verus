@@ -32,8 +32,7 @@ def banner(logo):
 
 # install miner function 
 def install():
-    # os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
-    os.system("git clone --single-branch -b linux ttps://github.com/curvehashcoin/cpuminer-curvehash")
+    os.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer")
 
 # run miner function
 def run():
