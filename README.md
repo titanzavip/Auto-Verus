@@ -48,9 +48,6 @@ os-installer
 ```
 # AUTO RUN CCMINER IN TERMUX
 ```
-os-installer
-```
-```
 apt update -y
 ```
 ```
