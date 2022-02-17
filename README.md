@@ -11,26 +11,14 @@ termux-setup-storage
 apt update -y
 ```
 ```
+apt upgrade -y
+```
+```
 apt install git -y
 ```
 ```
 pkg install nano
 ```
-```
-mkdir .termux/boot
-```
-```
-cd .termux/boot
-```
-```
-nano boot.sh
-```
-```
-#!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-. $PREFIX/etc/profile
-```
-* รอ RE-Termux
 ```
 cd /data/data/com.termux/files/usr/etc
 ```
