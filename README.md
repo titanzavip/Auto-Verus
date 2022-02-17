@@ -31,7 +31,10 @@ nano boot.sh
 termux-wake-lock
 . $PREFIX/etc/profile
 ```
-รอ RE-Termux 
+```
+exit
+```
+RE Mobile
 ```
 cd /data/data/com.termux/files/usr/etc
 ```
