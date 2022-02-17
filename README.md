@@ -11,9 +11,6 @@ termux-setup-storage
 apt update -y
 ```
 ```
-apt upgrade -y
-```
-```
 apt install git -y
 ```
 ```
@@ -33,6 +30,7 @@ nano boot.sh
 termux-wake-lock
 . $PREFIX/etc/profile
 ```
+* รอ RE-Termux
 ```
 cd /data/data/com.termux/files/usr/etc
 ```
