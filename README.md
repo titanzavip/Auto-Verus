@@ -14,11 +14,30 @@ apt update -y
 apt upgrade -y
 ```
 ```
-apt install git -y
+pkg update -y
+```
+```
+pkg upgrade -y
 ```
 ```
 pkg install nano
 ```
+```
+mkdir -p .termux/boot
+```
+```
+cd .termux/boot
+```
+```
+nano boot.sh
+```
+เพิ่มข้อมูลนี้ใน boot.sh
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+. $PREFIX/etc/profile
+```
+รอ RE-Termux 
 ```
 cd /data/data/com.termux/files/usr/etc
 ```
@@ -32,6 +51,9 @@ sh ubun.sh
 ```
 ```
 cd
+```
+```
+apt install git -y
 ```
 ```
 git clone https://github.com/mantvmass/os-installer
