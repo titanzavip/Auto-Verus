@@ -20,6 +20,17 @@ apt install git -y
 pkg install nano
 ```
 ```
+mkdir .termux/boot
+```
+```
+cd .termux/boot
+```
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+. $PREFIX/etc/profile
+```
+```
 cd /data/data/com.termux/files/usr/etc
 ```
 ```
