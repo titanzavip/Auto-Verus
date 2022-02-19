@@ -46,7 +46,7 @@ def run():
         wallet = loads['Wallet']
         password = loads['Pass']
         cpu = loads['Cpu']
-    if pool == "" or wallet == "": or algorithm == "":
+    if pool == "" or wallet == "":
         print("pool หรือ wallet กรุณาตั้งค่าใหม่")
         time.sleep(3)
         set_miner()
@@ -79,7 +79,7 @@ def set_miner():
         print("\033[93m CPU 1-8 core chaeck 'lscpu'\033[00m")
         cpu = int(input("CPU[-t]: "))
 
-        if pool == "" or wallet == "": or algorithm == "":
+        if pool == "" or wallet == "":
             raise Exception()
         if password == "":
             password = "x"
