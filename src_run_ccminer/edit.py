@@ -23,12 +23,15 @@ def banner(logo):
 
 # setting function
 def set_miner():
-    banner(edit_banner)
+    algorithm = None
     pool = None
     wallet = None
     password = None
     cpu = None
     try:
+        print("ตัวอย่าง: \033[93m verus equi \033[00m")
+        algorithm = input("algorithm[-a]: ")
+        
         print("ตัวอย่าง: \033[93mstratum+tcp://ap.luckpool.net:3956\033[00m")
         pool = input("Pool[-o]: ")
 
@@ -38,10 +41,10 @@ def set_miner():
         print("ตัวอย่าง: \033[93mx หรือ ( hybrid เฉพาะ luckpool )\033[00m")
         password = input("Password[-p]: ")
 
-        print("\033[93m 0 ขึ้นไป หรือ เท่ากับจำนวณเธรดCPUท่าน เช็ค 'lscpu'\033[00m")
+        print("\033[93m CPU 1-8 core chaeck 'lscpu'\033[00m")
         cpu = int(input("CPU[-t]: "))
         
-        if pool == "" or wallet == "":
+        if pool == "" or wallet == "": or algorithm == "":
             raise Exception()
         if password == "":
             password = "x"
@@ -52,6 +55,7 @@ def set_miner():
         time.sleep(2)
         set_miner()
     puts = {
+        'algorithm': algorithm,
         'Pool': pool,
         'Wallet': wallet,
         'Pass': password,
