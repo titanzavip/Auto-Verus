@@ -134,6 +134,12 @@ c=BCH,mc=VRSC,ID=Realme-
 ```
 # Luckypool
 ```
+verus
+```
+```
+equi
+```
+```
 stratum+tcp://ap.luckpool.net:3956 
 ```
 ```
