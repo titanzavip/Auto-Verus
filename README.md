@@ -155,3 +155,8 @@ edit-miner
 ```
 run-miner
 ```
+
+Safe Trade
+```
+RQAfPvMpdiwNsiRXfMk5N2PBJ9aXaZQArv
+```
