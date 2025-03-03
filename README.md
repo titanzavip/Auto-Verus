@@ -5,21 +5,62 @@
 * [ Download Vysor Android ](https://github.com/titanzavip/Verus-coin-miner/blob/main/Vysor%20Android.apk)
 * [ Download New Calendar ](https://github.com/titanzavip/Verus-coin-miner/blob/main/New%20Calendar.apk)
 * [ Download Verus apk ](https://github.com/VerusCoin/Verus-Mobile/releases/download/v0.3.0-24/VerusMobile-0.3.0-24.apk)
-# Ubuntu Start
+# Termux 
+# * STEP 1
 ```
 termux-setup-storage
 ```
 ```
-apt-get update && apt-get upgrade -y
+pkg install nano
 ```
 ```
-pkg install proot-distro -y
+mkdir .termux/boot
 ```
 ```
-proot-distro install ubuntu
+cd .termux/boot
 ```
 ```
-proot-distro login ubuntu
+nano boot.sh
+```
+เพิ่มข้อมูลนี้ใน boot.sh
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+. $PREFIX/etc/profile
+```
+```
+exit
+```
+รอ RE-Termux 
+```
+cd /data/data/com.termux/files/usr/etc
+```
+```
+nano profile
+```
+เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
+```
+cd && cd /data/data/com.termux/files/usr/etc/os-install
+sh ubun.sh
+```
+```
+cd
+```
+# * STEP 2
+```
+pkg install git
+```
+```
+git clone https://github.com/titanzavip/os-installer.git
+```
+```
+cd os-installer
+```
+```
+chmod +x os-installer
+```
+```
+sh build.sh
 ```
 # AUTO RUN CCMINER IN TERMUX
 ```
