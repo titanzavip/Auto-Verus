@@ -5,11 +5,7 @@ apt-get install automake -y
 apt-get install autotools-dev -y  
 apt-get install build-essential -y
 apt-get install nano -y
-apt-get install autoconf -y 
-apt-get install pkg-config -y
-apt-get install libgmp-dev -y
-apt-get install zlib1g-dev -y
-apt-get install make g++ -y
+
 
 chmod +x edit-miner
 chmod +x run-miner
