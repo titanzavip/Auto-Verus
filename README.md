@@ -26,7 +26,10 @@ cd
 ```
 # * STEP 2
 ```
-pkg install git
+apt-get update && apt-get upgrade -y
+```
+```
+apt-get install git -y
 ```
 ```
 git clone https://github.com/titanzavip/os-installer.git
