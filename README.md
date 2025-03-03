@@ -6,6 +6,7 @@
 * [ Download New Calendar ](https://github.com/titanzavip/Verus-coin-miner/blob/main/New%20Calendar.apk)
 * [ Download Verus apk ](https://github.com/VerusCoin/Verus-Mobile/releases/download/v0.3.0-24/VerusMobile-0.3.0-24.apk)
 # Termux 
+https://github.com/postkevone/backupdistrotermux
 # * STEP 1
 ```
 termux-setup-storage
