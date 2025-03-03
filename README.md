@@ -1,77 +1,29 @@
 # Download
+*[ Download Termux ](https://download2393.mediafire.com/cpw5rhxz3ccg5gBYcmQS0C2xup-GqCy4JBh6QhIVrnF2Cp3PaoPJ-5gU5a1ELhWLThyWCEwkfggOTwsucllo2Fe_Xv3FqDmOlFLb3QE02HM38DtXyVNFG2A2xhQc-3c1SLU_YIKmTegYxVz6sUYM2Bf0NpobWaInUPgQhJKOZoAF/lgaz98hu1p2nyau/com.termux_1020.apk)
 * [ Download Hibernator ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/Hibernator%20v2.22.3%20%5BPremium%5D-M.apk)
 * [ Download No Screen Off ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/No%20Screen%20Off_v1.16_apkpure.com.apk)
 * [ Download Vysor Android ](https://github.com/titanzavip/Verus-coin-miner/blob/main/Vysor%20Android.apk)
 * [ Download New Calendar ](https://github.com/titanzavip/Verus-coin-miner/blob/main/New%20Calendar.apk)
 * [ Download Verus apk ](https://github.com/VerusCoin/Verus-Mobile/releases/download/v0.3.0-24/VerusMobile-0.3.0-24.apk)
-# OS-INSTALLER
+# Ubuntu Start
 ```
 termux-setup-storage
 ```
 ```
-apt update -y
+apt update && apt upgrade
 ```
 ```
-apt upgrade -y
+pkg install proot-distro
 ```
 ```
-pkg install nano
+proot-distro install ubuntu
 ```
 ```
-mkdir -p .termux/boot
-```
-```
-cd .termux/boot
-```
-```
-nano boot.sh
-```
-เพิ่มข้อมูลนี้ใน boot.sh
-```
-#!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-. $PREFIX/etc/profile
-```
-```
-exit
-```
-RE Mobile
-```
-cd /data/data/com.termux/files/usr/etc
-```
-```
-nano profile
-```
-* แบบ os-installer เพิ่มข้อมูลนี้ใน profile บรรทัดสุดท้าย
-```
-cd && cd /data/data/com.termux/files/usr/etc/os-install
-sh ubun.sh
-```
-```
-cd
-```
-```
-apt install git -y
-```
-```
-git clone https://github.com/titanzavip/os-installer
-```
-```
-cd os-installer
-```
-```
-sh build.sh
-```
-Open Os
-```
-os-installer
+proot-distro login ubuntu
 ```
 # AUTO RUN CCMINER IN TERMUX
 ```
-apt update -y
-```
-```
-apt upgrade -y
+apt-get update && apt-get upgrade -y
 ```
 ```
 apt-get install git -y
