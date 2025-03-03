@@ -13,7 +13,7 @@ termux-setup-storage
 apt-get update && apt-get upgrade -y
 ```
 ```
-pkg install proot-distro
+pkg install proot-distro -y
 ```
 ```
 proot-distro install ubuntu
