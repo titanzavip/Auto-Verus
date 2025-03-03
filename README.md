@@ -10,7 +10,7 @@
 termux-setup-storage
 ```
 ```
-apt update && apt upgrade
+apt-get update && apt-get upgrade -y
 ```
 ```
 pkg install proot-distro
