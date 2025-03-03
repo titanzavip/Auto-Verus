@@ -1,5 +1,5 @@
 # Download
-* [ Download Termux ](https://www.mediafire.com/file/ffgnbvqh7cbdhex/termux-app_v0.118.0%252Bgithub-debug_arm64-v8a.apk/file)
+* [ Download Termux ](https://download2263.mediafire.com/7etr61e7abygBR7BvgJDU6sobhsJ2TR7WsxitiuuCUY5l3WP86GnoKwMKXZQUzIAl2H55uWHVYUFed1QPdmJemZ4dO7z6iu73_p-TbzvcxKazda9GkkW23S6nagz9qiy7MIwQqFKK6c821ueiupKk5EHLRJE1bdTK5kyC9JOKN-R/ffgnbvqh7cbdhex/termux-app_v0.118.0%2Bgithub-debug_arm64-v8a.apk)
 * [ Download Hibernator ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/Hibernator%20v2.22.3%20%5BPremium%5D-M.apk)
 * [ Download No Screen Off ](https://raw.githubusercontent.com/titanzavip/Verus-coin-miner/main/No%20Screen%20Off_v1.16_apkpure.com.apk)
 * [ Download Vysor Android ](https://github.com/titanzavip/Verus-coin-miner/blob/main/Vysor%20Android.apk)
