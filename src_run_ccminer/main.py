@@ -1,6 +1,19 @@
 import os, json, time
 from progress.spinner import MoonSpinner
 
+# check import module
+try:
+    from progress.spinner import MoonSpinner
+except ImportError:
+    pip.main(['install', '--user', 'progress'])
+    from progress.spinner import MoonSpinner
+
+try:
+    import requests
+except ImportError:
+    pip.main(['install', '--user', 'requests'])
+    import requests
+
 # banner
 setting_banner = """
 ███████╗███████╗████████╗████████╗██╗███╗   ██╗ ██████╗ 
