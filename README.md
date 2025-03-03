@@ -11,28 +11,6 @@
 termux-setup-storage
 ```
 ```
-pkg install nano
-```
-```
-mkdir .termux/boot
-```
-```
-cd .termux/boot
-```
-```
-nano boot.sh
-```
-เพิ่มข้อมูลนี้ใน boot.sh
-```
-#!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-. $PREFIX/etc/profile
-```
-```
-exit
-```
-รอ RE-Termux 
-```
 cd /data/data/com.termux/files/usr/etc
 ```
 ```
