@@ -5,6 +5,16 @@
 * [ Download Vysor Android ](https://github.com/titanzavip/Verus-coin-miner/blob/main/Vysor%20Android.apk)
 * [ Download New Calendar ](https://github.com/titanzavip/Verus-coin-miner/blob/main/New%20Calendar.apk)
 * [ Download Verus apk ](https://github.com/VerusCoin/Verus-Mobile/releases/download/v0.3.0-24/VerusMobile-0.3.0-24.apk)
+* [ Download Termux Backup ](https://download851.mediafire.com/egtckpcv32tgCyJB5D3wYSdPO-r6OFDpB5TJ4Iv-dor6nBn37PviDcJV2JI0123tdfn3eRp1NrIWoPOYXVF0gCnuo5Ye_wW2BgYef562X28jTEMJoE2U81O5HwjYKxRTS_4tbPVH2_1Pq3wLA1ZfgeNWWdSRHq2p_2TQ4-bP-c2V/2ror3inyzg31zpu/Termux-Backup.tar.gz)
+
+# Termux Backup
+```
+termux-setup-storage
+```
+```
+cd /data/data/com.termux/files && tar -zvxf /storage/emulated/0/download/Termux-Backup.tar.gz --recursive-unlink --preserve-permissions && proot-distro login ubuntu
+```
+
 # Termux 
 https://github.com/postkevone/backupdistrotermux
 # * STEP 1
