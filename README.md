@@ -82,6 +82,10 @@ run-miner
 * หากต้องการเปิดขุด ใช้คำสั่ง ```run-miner```
 
 # ZergPool
+* YTN
+```
+-o stratum+tcp://yespowerR16.asia.mine.zergpool.com:6534 -u RJ44vprLnsTYSVk2MKfKRbDuCZmtDn57Cf -p c=VRSC,mc=YTN
+```
 * Verus Coin
 ```
 stratum+tcp://verushash.asia.mine.zergpool.com:3300
