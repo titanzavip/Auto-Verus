@@ -88,7 +88,7 @@ stratum+tcp://verushash.asia.mine.zergpool.com:3300
 ```
 * Wallet
 ```
-RJmusWhHL5qvDa1iK3CF7NWYaSHG5P9gyQ.Realme-
+RJ44vprLnsTYSVk2MKfKRbDuCZmtDn57Cf
 ```
 * -p 
 ```
